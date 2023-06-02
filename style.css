@@ -1,0 +1,26 @@
+.frame{
+    padding: 100px;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#numbers {
+    height: 50px;
+    width: 50px;
+}
+
+#operators{
+    height:50px;
+    width: 50px;
+}
+
+#result{
+    height:50px;
+    width: 50px;
+}
+
+#clear{
+    height:50px;
+    width: 50px;
+}
