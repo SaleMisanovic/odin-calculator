@@ -168,41 +168,41 @@ function checkDecimal() {
 
 //// KEYBOARD
   document.addEventListener("keydown", (event) => {
-    if (event.keyCode === 107) {
+    if (event.key === "+") {
       getOperator(operators.item(0));
-    } else if (event.keyCode === 109) {
+    } else if (event.key === "-") {
       getOperator(operators.item(1));
-    } else if (event.keyCode === 106) {
+    } else if (event.key === "*") {
       getOperator(operators.item(2));
-    } else if (event.keyCode === 111) {
+    } else if (event.key === "/") {
       getOperator(operators.item(3));
-    } else if (event.keyCode === 96) {
+    } else if (event.key === "0") {
       getNumber(numbers.item(0));
-    } else if (event.keyCode === 97) {
+    } else if (event.key === "1") {
       getNumber(numbers.item(1));
-    } else if (event.keyCode === 98) {
+    } else if (event.key === "2") {
       getNumber(numbers.item(2));
-    } else if (event.keyCode === 99) {
+    } else if (event.key === "3") {
       getNumber(numbers.item(3));
-    } else if (event.keyCode === 100) {
+    } else if (event.key === "4") {
       getNumber(numbers.item(4));
-    } else if (event.keyCode === 101) {
+    } else if (event.key === "5") {
       getNumber(numbers.item(5));
-    } else if (event.keyCode === 102) {
+    } else if (event.key === "6") {
       getNumber(numbers.item(6));
-    } else if (event.keyCode === 103) {
+    } else if (event.key === "7") {
       getNumber(numbers.item(7));
-    } else if (event.keyCode === 104) {
+    } else if (event.key === "8") {
       getNumber(numbers.item(8));
-    } else if (event.keyCode === 105) {
+    } else if (event.key === "9") {
       getNumber(numbers.item(9));
-    }else if(event.keyCode===110){
-      getNumber(numbers.item(10))
-    }else if(event.keyCode === 13){
+    }else if(event.key === "."){
+      getNumber(numbers.item(10));
+    }else if(event.key === "Enter"){
       resultFunction();
-    }else if(event.keyCode===8){
+    }else if(event.key==="Backspace"){
       backspaceFunction();
-    }else if(event.keyCode===46){
+    }else if(event.key==="Delete"){
       clearFunction();
     }
   });

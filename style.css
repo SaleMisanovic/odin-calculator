@@ -1,26 +1,134 @@
+body{
+    background-color: rgb(203, 225, 245);
+    font-family: 'Orbitron', sans-serif;
+}
+
 .frame{
-    padding: 100px;
-    height: 500px;
-    width: 500px;
+    padding: 70px;
+    height: 550px;
+    width: 400px;
     margin: 0 auto;
+    margin-top: 150px;
+    background-color: rgba(185, 92, 92, 0.707);
+    border-radius: 15px;
+    border: 5px solid black;
+}
+.frame-buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
 }
 
-#numbers {
-    height: 50px;
-    width: 50px;
+h1{
+    margin-top: 0px;
 }
 
-#operators{
-    height:50px;
-    width: 50px;
+.display{
+    height:100px;
+    width: 400px;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px 0px;
+    font-size: 60px;
+    text-align: end;
 }
 
-#result{
-    height:50px;
-    width: 50px;
+.buttons{
+    padding: 20px;
+    font-size: x-large;
+    border-radius: 5px;
+}
+.buttons:hover{
+    background-color: lightgray;
 }
 
-#clear{
-    height:50px;
-    width: 50px;
+.item1{
+    grid-row-start: 1;
+    grid-column-end: 1;
+}
+
+.item2{
+    grid-row-start: 1;
+    grid-column-end: 2;
+}
+
+.item3{
+    grid-row-start: 1;
+    grid-column-end: 3;
+}
+
+.item4{
+    grid-row-start: 1;
+    grid-column-end: 4;
+}
+
+.item5{
+    grid-row-start: 2;
+    grid-column-end: 1;
+}
+
+.item6{
+    grid-row-start: 2;
+    grid-column-end: 2;
+}
+
+.item7{
+    grid-row-start: 2;
+    grid-column-end: 3;
+}
+
+.item8{
+    grid-row-start: 2;
+    grid-column-end: 4;
+}
+
+.item9{
+    grid-row-start: 3;
+    grid-column-end: 1;
+}
+
+.item10{
+    grid-row-start: 3;
+    grid-column-end: 2;
+}
+
+.item11{
+    grid-row-start: 3;
+    grid-column-end: 3;
+}
+
+.item12{
+    grid-row-start: 3;
+    grid-column-end: 4;
+}
+
+.item13{
+    grid-row-start: 4;
+    grid-column-end: 1;
+}
+
+.item14{
+    grid-row-start: 4;
+    grid-column-end: 2;
+}
+
+.item15{
+    grid-row-start: 4;
+    grid-column-end: 3;
+}
+.item16{
+    grid-row:4 / span 2;
+    grid-column-end: 4;
+}
+
+.item17{
+    grid-row-start: 5;
+    grid-column-end: 1;
+}
+
+.item18{
+    grid-row-start: 5;
+    grid-column: 1 / span 2;  
+    
 }
