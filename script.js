@@ -73,17 +73,6 @@ numbers.forEach((button) => {
   });
 });
 
-//document.addEventListener("keydown", (event2) => {
-
-/* for (let i = 0; i < 9; i++) {
-    console.log("hello")
-    if (event.keycode+i === 96) {
-      console.log("hello")
-      getNumber(numbers.item(i))
-    }
-  } */
-//});
-
 function getNumber(button) {
   if (operator === "") {
     if (checkForFirst === true) {
@@ -196,7 +185,7 @@ function checkDecimal() {
       getNumber(numbers.item(8));
     } else if (event.key === "9") {
       getNumber(numbers.item(9));
-    }else if(event.key === "."){
+    }else if(event.key === "." && decimal.disabled==false){
       getNumber(numbers.item(10));
     }else if(event.key === "Enter"){
       resultFunction();
